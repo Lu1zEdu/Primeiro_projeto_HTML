@@ -1,29 +1,95 @@
- <!--Isso eh um comentario em HTML-->
- <!DOCTYPE HTML> <!-- Esse eh o DTD do HTML5 -->
- <!-- O DTD eh document type definitio e idndica ao navegador a versao do HTML que eh carregado -->
+<!--Isso eh um comentario em HTML-->
+<!DOCTYPE html>
+<!-- Esse eh o DTD do HTML5 -->
+<!-- O DTD eh document type definitio e idndica ao navegador a versao do HTML que eh carregado -->
 
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercicio-1</title>
+    <title>apagina Basica</title>
   </head>
   <body>
-    <h1>Blockchain</h1>
-    <p>
-      A blockchain é uma base de dados distribuída que é mantida por uma rede de
-      computadores. Os dados são armazenados em blocos, que são ligados uns aos
-      outros usando criptografia. Cada bloco contém um hash do bloco anterior, o
-      que torna impossível alterar os dados sem alterar todos os blocos
-      subsequentes. As blockchains são usadas para registar transações de forma
-      segura e transparente. Elas são também usadas para criar aplicações
-      descentralizadas (dApps), que são aplicações que não são controladas por
-      uma única entidade. As blockchains têm sido utilizadas para uma variedade
-      de aplicações, incluindo a gestão de identidades, a rastreabilidade de
-      produtos, e a criação de moedas digitais. A blockchain é uma tecnologia
-      relativamente nova,mas tem o potencial de transformar a forma como fazemos
-      negócios e interagimos com o mundo digital.
-    </p>
+    <div class="contanier">
+      <header class="cabecalho">
+        <h1 style="text-align: center; border: solid 2px red">Minha pagina</h1>
+        <nav class="menu">
+          <ul style="list-style-type: none">
+            <li>
+              <a href="./Areas/help.html"> Help </a>
+            </li>
+            <li>
+              <a href="./Areas/about.html"> About </a>
+            </li>
+            <li>
+              <a href="#Contact"> Contact </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <div>
+          <h2>HELP</h2>
+          <p>
+            Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+            fugiat delectus repellat soluta vel nemo quidem sint rem temporibus
+            quos?
+            <a href="./Areas/help.html">Mais.....</a>
+          </p>
+        </div>
+
+        <div>
+          <h2>About</h2>
+          <p>
+            About- Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+            fugiat delectus repellat soluta vel nemo quidem sint rem temporibus
+            quos?
+          </p>
+          <a href="./Areas/about.html">Mais.....</a>
+        </div>
+        <div>
+          <h2>CONTACT</h2>
+          <form>
+            <fieldset>
+              <legend>Customer Data</legend>
+              <div>
+                <label for="">Nome : </label>
+                <input
+                  type="text"
+                  name="txtNm"
+                  id="idnm"
+                  placeholder="Digite seu nome"
+                />
+              </div>
+              <div>
+                <label for=""> Email :</label>
+                <input
+                  type="email"
+                  name="txtEmail"
+                  id="idEmail"
+                  placeholder="Digite seu email"
+                />
+              </div>
+              <div>
+                <button type="button">Send</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+      <footer class="rodape">
+        <!--nav.menu>ul>li*3>a[href="#"]{Item - $}-->
+        <nav class="menu">
+          <ul style="list-style-type: none">
+            <li><a href="https://www.fiap.com.br/" target="_blank">Fiap</a></li>
+            <li>
+              <a href="https://www.google.com.br/" target="_blank">GOOGLE</a>
+            </li>
+            <li><a href="">GitHub</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>
