@@ -8,14 +8,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>apagina Basica</title>
+    <title>A pagina Basica</title>
+    <!--
+      <link rel="stylesheet" href="estilo.css" />
+    -->
+    <!--As folhas de estilo  através de bloco style-->
+
+    <style>
+      h1 {
+        text-align: center;
+        border: solid 2px blue;
+      }
+
+      .cabecalho-h1 {
+        text-align: center;
+        border: solid 2px blue;
+      }
+      #meu-h1-2 {
+        text-align: center;
+        border: solid 2px greenyellow;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      section div h1 {
+        text-align: center;
+        border: solid 2px violet;
+      }
+    </style>
   </head>
+
   <body>
     <div class="contanier">
       <header class="cabecalho">
-        <h1 style="text-align: center; border: solid 2px red">Minha pagina</h1>
+        <h1>Minha pagina</h1>
         <nav class="menu">
-          <ul style="list-style-type: none">
+          <ul>
             <li>
               <a href="./Areas/help.html"> Help </a>
             </li>
@@ -28,8 +58,11 @@
           </ul>
         </nav>
       </header>
-      <section>
+
+      <section class="conteudo">
         <div>
+          <h1 id="meu-h1-2">O LOKO</h1>
+          <h1 class="meu-h1">HELP</h1>
           <h2>HELP</h2>
           <p>
             Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
@@ -81,12 +114,17 @@
       <footer class="rodape">
         <!--nav.menu>ul>li*3>a[href="#"]{Item - $}-->
         <nav class="menu">
-          <ul style="list-style-type: none">
+          <ul>
             <li><a href="https://www.fiap.com.br/" target="_blank">Fiap</a></li>
             <li>
               <a href="https://www.google.com.br/" target="_blank">GOOGLE</a>
             </li>
-            <li><a href="">GitHub</a></li>
+            <li>
+              <a
+                href="https://github.com/Lu1zEdu/Primeiro_projeto_HTML/blob/main/index.html"
+                >GitHub</a
+              >
+            </li>
           </ul>
         </nav>
       </footer>
