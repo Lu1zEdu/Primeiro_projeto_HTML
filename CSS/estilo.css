@@ -1,8 +1,33 @@
+
+/*Este é um comentário em CSS*/
+/*
+    Este é um comentário 
+    em BLOCO em CSS
+*/
+
+/* Quais tags podem ser seletores CSS3: */
+/* 
+    - Tag
+    - Class
+    - ID
+    - Atributo
+    - Pseudo-classe
+    - Pseudo-elemento
+*/
+/* Tag */
 h1 {
     background-color: black;
     color: aliceblue;
   }
-ul {
+
+/* Class */
+.link{
+    color: #318021;
     list-style: none;
 }
-/*COMENTARIO*/
+ul .link{
+    
+    color: red;
+    display: inline;
+    border: 2px solid blue;
+}
