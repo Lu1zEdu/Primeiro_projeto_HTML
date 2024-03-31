@@ -70,10 +70,14 @@ nav a{
     padding: 0.5rem;
 }
 .container{
-
+    margin: 0 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
 }
 form{
-
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 1rem
 }
 button {
     background-color: #0080ff;
@@ -84,4 +88,9 @@ button {
 }
 p {
     color: #008000;
+}
+footer {
+    border-top: 2px solid #ff0000;
+    padding: 1rem;
+    text-align: center;
 }
