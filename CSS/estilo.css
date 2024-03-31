@@ -51,3 +51,7 @@ ul .link{
     border: 5px solid black;
     margin: 0 auto;
 }
+/*------------------------------------*/
+header{
+    background-color: blue;
+}
