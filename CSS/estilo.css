@@ -102,6 +102,12 @@ h1, h2 {
     font-family: Georgia, serif;
 }
 
+nav a {
+    color:darkgray;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
 
 
 
